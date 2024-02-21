@@ -3,24 +3,24 @@
 Shorten your search inputs like a hero...
 
 ## Variables
-#### Available because of the user to be able to hide or unhide the input
+### Available because of the user to be able to hide or unhide the input
 
 | Parameter   | Type     |
 :--------     | :------- |
 | `expanded`  | `boolean`|
 
 ## Methods
-#### clickOutside
+### clickOutside
 Called when user clicked outside of parent element to toggling input off. The event listener is registered on onMounted hook and will unregistered onUnmounted hook
 
-#### onSubmit
+### onSubmit
 Called when user try to submit the form which is parent element of input to register onSubmit emit
 
-#### onChange
+### onChange
 Called when user try to change the value of input to register onChange emit
 
 ## Props
-#### The input value, or v-model property of its value
+### The input value, or v-model property of its value
 
 | Parameter   | Type     | Required / Default value   |
 | :--------   | :------- | :------------------------- |
@@ -31,7 +31,7 @@ Called when user try to change the value of input to register onChange emit
 <SearchInput v-model="searchText" />
 ```
 
-#### The placeholder of SearchInput
+### The placeholder of SearchInput
 
 | Parameter    | Type     | Required / Default value  |
 | :--------    | :------- | :-------------------------|
@@ -59,7 +59,7 @@ Return a string passed through an simple regex
 />
 ```
 
-#### onChange
+### onChange
 Same as onSubmit emit returns a string passed through a simple regex
 | Parameter    | Return Type |
 | :--------    | :-------    | 
