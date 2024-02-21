@@ -45,7 +45,7 @@ Called when user try to change the value of input to register onChange emit
 ```
 
 ## Emits
-#### onSubmit
+### onSubmit
 Return a string passed through an simple regex
 | Parameter    | Return Type |
 | :--------    | :-------    | 
