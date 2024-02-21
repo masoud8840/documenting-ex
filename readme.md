@@ -2,14 +2,14 @@
 # SearchInput.vue
 Shorten your search inputs like a hero...
 
-### Variables
+## Variables
 #### Available because of the user to be able to hide or unhide the input
 
 | Parameter   | Type     |
 :--------     | :------- |
 | `expanded`  | `boolean`|
 
-### Methods
+## Methods
 #### clickOutside
 Called when user clicked outside of parent element to toggling input off. The event listener is registered on onMounted hook and will unregistered onUnmounted hook
 
@@ -19,7 +19,7 @@ Called when user try to submit the form which is parent element of input to regi
 #### onChange
 Called when user try to change the value of input to register onChange emit
 
-### Props
+## Props
 #### The input value, or v-model property of its value
 
 | Parameter   | Type     | Required / Default value   |
@@ -44,7 +44,7 @@ Called when user try to change the value of input to register onChange emit
 />
 ```
 
-### Emits
+## Emits
 #### onSubmit
 Return a string passed through an simple regex
 | Parameter    | Return Type |
