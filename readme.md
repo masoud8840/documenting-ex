@@ -1,6 +1,6 @@
 
 # SearchInput.vue
-Shorten your search inputs like a hero...
+Shorten your search inputs like a hero... (this is only for documenting skills for an interview question)
 
 ## Variables
 ### Available because of the user to be able to hide or unhide the input
